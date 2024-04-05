@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: "kdam thmor Pro", sans-serif;
+   
+}
+
+li:hover{
+    color: #D21617;
+    transform: scale(1.05);
+}
+#logo{
+    width: 120px;
+    height: auto;
+}
+.coments-general{
+    width: 100%;
+}
+#tittle{
+    width: 50%;
+    margin: 20px 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: "Days one", sans-serif;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 6px 8px 20px rgba(139, 139, 139, 0.377);
+    border-radius: 10px;
+}
+
+#comment-superior{
+    width: 90%;
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: 3px 5px 8px rgba(255, 255, 255, 0.295);
+    background: none;
+    padding: 50px 0px 0px 50px;
+}
+
+.comente{
+    width: 100%;
+}
+
+.digitando{
+    width: 50%;
+    height: 150px;
+    background-color: #000000;
+    border: 2px solid rgba(255, 255, 255, 0.295) ;
+    border-radius: 8px ;
+    box-shadow: 2px 5px 10px rgb(255, 255, 255, 0.295);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0px ;
+    margin-left: 20px;
+
+}  
+#imgusuario{
+    width: 10%;
+    height: 100px;
+    background:none;
+    padding: 0px 10px 0px 0px;
+}
+#opiniao{
+    resize: none;
+    width: 100%;
+    height: 100px;
+    color: white;
+    font-size: 11px;
+    background: none;
+    padding: 5px 0px;
+    border-radius: 8px;
+}
+#button{
+    color: white;
+    background-color: black;
+    font-size: 13px;
+    padding: 5px 10px;
+    border-radius: 8px;
+
+}
+
+.comentarios{
+    width: 100%;
+}
+
+.comment-1{
+    width: 70%;
+    background-color: rgba(22, 22, 22, 0.459);
+    border: 2px solid rgba(66, 0, 0, 0.295);
+    border-radius: 8px;
+    box-shadow: 5px 8px 10px rgba(66, 0, 0, 0.404);
+    padding: 10px 0px 0px 10px ;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+#perfil1{
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+#commentone{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "karantina", sans-serif;
+    padding-left: 5px;
+    background: none;
+}
+i{background: none;}
+
+#starone{
+    width: 20px;
+    background:none;
+}
+
+#opone{
+    font-size: 25px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: aliceblue;
+    background: none;
+}
+
+.comment-2{
+    width: 70%;
+    background-color: rgba(22, 22, 22, 0.459);
+    border: 2px solid rgba(66, 0, 0, 0.295);
+    box-shadow: 5px 8px 10px rgba(66, 0, 0, 0.404);
+    border-radius: 8px;
+    padding: 10px 0px 0px 10px ;
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+#perfil2{
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+#commenttwo{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "karantina", sans-serif;
+    padding-left: 5px;
+    background: none;
+}
+#startwo{
+    width: 20px;
+    background: none;
+}
+
+#optwo{
+    font-size: 25px;
+    font-family: "kdam Thmor Pro", sans-serif;
+    color: aliceblue;
+    background: none;
+}
+
+.comment-3{
+    width: 70%;
+    background-color: rgba(22, 22, 22, 0.459);
+    border: 2px solid rgba(66, 0, 0, 0.295);
+    box-shadow: 5px 8px 10px rgba(66, 0, 0, 0.404);
+    border-radius: 8px;
+    padding: 10px 0px 0px 10px;
+    margin-left: 20px;
+    margin-top:40px;
+}
+#perfil3{
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+#commenttri{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "Karantina",sans-serif;
+    padding-left: 5px;
+    background: none;
+}
+#startri{
+    width: 20px;
+    background: none;
+}
+#optri{
+    font-size: 25px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: aliceblue;
+    background: none;
+}
+
+.comment-4{
+    width: 70%;
+    background-color: rgba(22, 22, 22, 0.459);
+    border: 2px solid rgba(66, 0, 0, 0.295);
+    box-shadow: 5px 8px 10px rgba(66, 0, 0, 0.404);
+    border-radius: 8px;
+    padding: 10px 0px 0px 10px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#perfil4{
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+#commentfor{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "karantina", sans-serif;
+    padding-left: 5px;
+    background:none;
+}
+#starfor{
+    width: 20px;
+    background: none;
+}
+#opfor{
+    font-size: 25px;
+    font-family: "kdam Thmor Pro", sans-serif;
+    color: aliceblue;
+    background: none;
+}
+
+.comment-5{
+    width: 70%;
+    background-color: rgba(22, 22, 22, 0.459);
+    border: 2px solid rgba(66, 0, 0, 0.295);
+    box-shadow: 5px 8px 10px rgba(66, 0, 0, 0.404);
+    border-radius: 8px;
+    padding: 10px 0px 0px 10px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#perfil5{
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+#commentfive{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "karantina",sans-serif;
+    padding-left: 5px;
+    background: none;
+}
+#starfive{
+    width: 20px;
+    background: none;
+}
+#opfive{
+    font-size: 25px;
+    font-family: "kdam Thmor Pro", sans-serif;
+    color: aliceblue;
+    background: none;
+}
+
+.comment-6{
+    width: 70%;
+    background-color: rgba(22, 22, 22, 0.459);
+    border: 2px solid rgba(66, 0, 0, 0.295);
+    box-shadow: 5px 8px 10px rgba(66, 0, 0, 0.404);
+    border-radius: 8px;
+    padding: 10px 0px 0px 10px;
+    margin-left: 20px;
+    margin-top:40px;
+}
+#perfil6{
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+#commentsix{
+    width: 100%;
+    height: 30px;
+    color: aliceblue;
+    font-size: 22px;
+    font-family: "karantina",sans-serif;
+    padding-left: 5px;
+    background: none;
+}
+#starsix{
+    width: 20px;
+    background: none;    
+}
+#opsix{
+    font-size: 25px;
+    font-family: "Kdam Thmor Pro", sans-serif;
+    color: aliceblue;
+    background: none;
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: #FFF;
+    font-family: "Kdam Thmor Pro", sans-serif;
+}
+
+.footer-navegation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width:1600px){
+    .footer-navegation{
+        display: none;
+    }
+    #tittle{
+        height: 60px;
+        font-size: 25px;
+    }
+    .digitando{
+        width: 50%;
+    }
+    #imgusuario{
+        width: 20%;
+        height: 100px;
+        padding-left: 10px;
+    }
+    #opiniao{
+        width: 95%;
+        height: 90px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:1280px){
+    .footer-navegation{
+        display: none;
+    }
+    #tittle{
+        width: 70%;
+        height: 50px;
+        margin: 20px 20%;
+        font-size: 27px;
+    }
+    .digitando{
+        width: 70%;
+    }
+    #imgusuario{
+        width: 17%;
+        height: 90px;
+        padding-left: 10px;
+    }
+    #opiniao{
+        width: 95%;
+        height: 90px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .footer-navegation{
+        display: none;
+    }
+    
+    #tittle{
+        width: 70%;
+        height: 50px;
+        margin: 20px 20%;
+        font-size: 20px;
+    }
+    .digitando{
+        width: 85%;
+    }
+    #imgusuario{
+        width: 20%;
+        height: 90px;
+        padding-left: 10px;
+    }
+    #opiniao{
+        width: 95%;
+        height: 80px;
+        font-size: 13px;
+    }
+
+}
+
+@media(max-width:480px){
+    .footer-navegation{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+    #tittle{
+        width: 70%;
+        height: 60px;
+        margin: 20px 20%;
+        font-size: 13px;
+    }
+    .digitando{
+        width: 85%;
+    }
+    #imgusuario{
+        width: 10%;
+        height: 50px;
+        padding-left: 10px;
+    }
+    #opiniao{
+        width: 90%;
+        height: 80px;
+        font-size: 13px;
+    }
+}
+@media(max-width:280px){
+    .footer-navegation{
+        display: block;
+    }
+    nav{
+        display: none;
+    }
+
+    #tittle{
+        width: 70%;
+        height: 50px;
+        margin: 20px 20%;
+        font-size: 8px;
+    }
+
+    .digitando{
+        width: 80%;
+    }
+    #imgusuario{
+        width: 10%;
+        height: 50px;
+        padding-left: 8px;
+    }
+
+    #opiniao{
+        width: 88%;
+        height: 85px;
+        font-size: 9px;
+    }
+    #button{
+      font-size: 9px ;
+    }
+
+    #commentone{
+        font-size: 18px;
+    }
+    #opone{
+        font-size: 15px;
+    }
+    #commenttwo{
+        font-size: 18px;
+    }
+    #optwo{
+        font-size: 15px;
+    }
+    #commenttri{
+        font-size: 18px;
+    }
+    #optri{
+        font-size: 15px;
+    }
+    #commentfor{
+        font-size: 18px;
+    }
+    #opfor{
+        font-size: 15px;
+    }
+    #commentfive{
+        font-size: 18px;
+    }
+    #opfive{
+        font-size: 15px;
+    }
+    #commentsix{
+        font-size: 18px;
+    }
+    #opsix{
+        font-size: 15px;
+    }
+}
